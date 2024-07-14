@@ -24,7 +24,7 @@ time complexity is o(2^n)
 def combination(s):
     def helper(s,p,up):
         if len(up)==0:
-            if p!='':
+            if p!="":
                 print(p)
                 acc=''.join(str(ord(p))for p in p)
                 '''

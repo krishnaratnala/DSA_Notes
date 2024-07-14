@@ -17,7 +17,6 @@ it is printing the permutation result
 '''
 
 def permutation(str):
-
     result=[]
     def helper(str,p,up):
         if len(up) == 0:
